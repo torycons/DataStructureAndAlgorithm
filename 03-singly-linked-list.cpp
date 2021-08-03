@@ -8,28 +8,28 @@ struct Node {
 };
 
 void displayNode(struct Node *head) {
-    if (head == NULL) {
+    if (head == nullptr) {
         cout << "NULL";
     }
 
-    while (head != NULL) {
+    while (head != nullptr) {
         cout << head->data << " --> ";
         head = head->nextNode;
     }
 }
 
 void append(struct Node *&head, int data) {
-    struct Node *newNode = new Node;
+    Node *newNode = new Node;
     newNode->data = data;
 
     struct Node *lastNode = head;
 
-    if (head == NULL) {
+    if (head == nullptr) {
         head = newNode;
         return;
     }
 
-    while (lastNode->nextNode != NULL) {
+    while (lastNode->nextNode != nullptr) {
         lastNode = lastNode->nextNode;
     }
 
@@ -37,22 +37,22 @@ void append(struct Node *&head, int data) {
 }
 
 void insertAfter(struct Node *&node, int after_data, int new_data) {
-    if (node == NULL) {
+    if (node == nullptr) {
         cout << "Insert to NULL";
         return;
     }
 
     struct Node *after_node = node;
-    while (1) {
+    while (true) {
         if (after_node->data == after_data) {
-            struct Node *newNode = new Node;
+            Node *newNode = new Node;
             newNode->data = new_data;
             newNode->nextNode = after_node->nextNode;
             after_node->nextNode = newNode;
             break;
         }
 
-        if (after_node->nextNode == NULL) {
+        if (after_node->nextNode == nullptr) {
             break;
         }
 
@@ -61,17 +61,17 @@ void insertAfter(struct Node *&node, int after_data, int new_data) {
 }
 
 void deleteNode(struct Node *&node, int data) {
-    struct Node *before_node = NULL;
+    struct Node *before_node = nullptr;
     struct Node *current_node = node;
 
-    while (1) {
+    while (true) {
         if (current_node->data == data) {
             before_node->nextNode = current_node->nextNode;
             delete current_node;
             break;
         }
 
-        if (current_node->nextNode == NULL) {
+        if (current_node->nextNode == nullptr) {
             break;
         }
 
@@ -80,8 +80,8 @@ void deleteNode(struct Node *&node, int data) {
     }
 }
 
-int main(int argc, char const *argv[]) {
-    struct Node *head = NULL;
+int main() {
+    struct Node *head = nullptr;
     append(head, 2);
     append(head, 3);
     append(head, 4);
