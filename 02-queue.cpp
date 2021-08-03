@@ -26,7 +26,7 @@ void printArray(vector<int> vector) {
     cout << "]" << endl;
 }
 
-int main(int argc, char const *argv[]) {
+int main() {
     Queue queue;
     queue.enqueued(2);
     printArray(queue.arr);

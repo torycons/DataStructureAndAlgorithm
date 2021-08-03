@@ -27,7 +27,7 @@ void printArray(vector<int> vector) {
     cout << "]" << endl;
 }
 
-int main(int argc, const char * argv[]) {
+int main() {
     Stack stack;
     stack.push(5);
     printArray(stack.arr);
