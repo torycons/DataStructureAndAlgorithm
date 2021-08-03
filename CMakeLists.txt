@@ -3,4 +3,4 @@ project(DataStructureAndAlgorithm)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(DataStructureAndAlgorithm 03-singly-linked-list.cpp)
+add_executable(DataStructureAndAlgorithm 04-double-linked-list.cpp)

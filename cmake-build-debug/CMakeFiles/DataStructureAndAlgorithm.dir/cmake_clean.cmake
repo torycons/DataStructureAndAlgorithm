@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructureAndAlgorithm.dir/03-singly-linked-list.cpp.o"
+  "CMakeFiles/DataStructureAndAlgorithm.dir/04-double-linked-list.cpp.o"
   "DataStructureAndAlgorithm"
   "DataStructureAndAlgorithm.pdb"
 )

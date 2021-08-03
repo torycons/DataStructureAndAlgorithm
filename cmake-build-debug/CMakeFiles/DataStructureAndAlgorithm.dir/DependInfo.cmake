@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/thanapat/Documents/Explore/DataStructureAndAlgorithm/03-singly-linked-list.cpp" "/Users/thanapat/Documents/Explore/DataStructureAndAlgorithm/cmake-build-debug/CMakeFiles/DataStructureAndAlgorithm.dir/03-singly-linked-list.cpp.o"
+  "/Users/thanapat/Documents/Explore/DataStructureAndAlgorithm/04-double-linked-list.cpp" "/Users/thanapat/Documents/Explore/DataStructureAndAlgorithm/cmake-build-debug/CMakeFiles/DataStructureAndAlgorithm.dir/04-double-linked-list.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

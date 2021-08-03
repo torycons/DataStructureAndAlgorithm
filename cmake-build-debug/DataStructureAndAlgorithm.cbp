@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/thanapat/Documents/Explore/DataStructureAndAlgorithm/03-singly-linked-list.cpp">
+		<Unit filename="/Users/thanapat/Documents/Explore/DataStructureAndAlgorithm/04-double-linked-list.cpp">
 			<Option target="DataStructureAndAlgorithm"/>
 		</Unit>
 		<Unit filename="/Users/thanapat/Documents/Explore/DataStructureAndAlgorithm/CMakeLists.txt">

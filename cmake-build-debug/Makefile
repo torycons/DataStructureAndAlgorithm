@@ -129,29 +129,29 @@ DataStructureAndAlgorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureAndAlgorithm.dir/build.make CMakeFiles/DataStructureAndAlgorithm.dir/build
 .PHONY : DataStructureAndAlgorithm/fast
 
-03-singly-linked-list.o: 03-singly-linked-list.cpp.o
-.PHONY : 03-singly-linked-list.o
+04-double-linked-list.o: 04-double-linked-list.cpp.o
+.PHONY : 04-double-linked-list.o
 
 # target to build an object file
-03-singly-linked-list.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureAndAlgorithm.dir/build.make CMakeFiles/DataStructureAndAlgorithm.dir/03-singly-linked-list.cpp.o
-.PHONY : 03-singly-linked-list.cpp.o
+04-double-linked-list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureAndAlgorithm.dir/build.make CMakeFiles/DataStructureAndAlgorithm.dir/04-double-linked-list.cpp.o
+.PHONY : 04-double-linked-list.cpp.o
 
-03-singly-linked-list.i: 03-singly-linked-list.cpp.i
-.PHONY : 03-singly-linked-list.i
+04-double-linked-list.i: 04-double-linked-list.cpp.i
+.PHONY : 04-double-linked-list.i
 
 # target to preprocess a source file
-03-singly-linked-list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureAndAlgorithm.dir/build.make CMakeFiles/DataStructureAndAlgorithm.dir/03-singly-linked-list.cpp.i
-.PHONY : 03-singly-linked-list.cpp.i
+04-double-linked-list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureAndAlgorithm.dir/build.make CMakeFiles/DataStructureAndAlgorithm.dir/04-double-linked-list.cpp.i
+.PHONY : 04-double-linked-list.cpp.i
 
-03-singly-linked-list.s: 03-singly-linked-list.cpp.s
-.PHONY : 03-singly-linked-list.s
+04-double-linked-list.s: 04-double-linked-list.cpp.s
+.PHONY : 04-double-linked-list.s
 
 # target to generate assembly for a file
-03-singly-linked-list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureAndAlgorithm.dir/build.make CMakeFiles/DataStructureAndAlgorithm.dir/03-singly-linked-list.cpp.s
-.PHONY : 03-singly-linked-list.cpp.s
+04-double-linked-list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructureAndAlgorithm.dir/build.make CMakeFiles/DataStructureAndAlgorithm.dir/04-double-linked-list.cpp.s
+.PHONY : 04-double-linked-list.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DataStructureAndAlgorithm"
-	@echo "... 03-singly-linked-list.o"
-	@echo "... 03-singly-linked-list.i"
-	@echo "... 03-singly-linked-list.s"
+	@echo "... 04-double-linked-list.o"
+	@echo "... 04-double-linked-list.i"
+	@echo "... 04-double-linked-list.s"
 .PHONY : help
 
 
